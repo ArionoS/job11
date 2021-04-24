@@ -24,7 +24,7 @@ class LoginRequest extends ApiRequest
     {
         return [
             'email'=>'required|string|email',
-            'password'=>'required|string|min:10',
+            'password'=>'required|string|min:8',
         ];
     }
 }
